@@ -10,7 +10,7 @@ from typing import Any, Optional
 from flask import Flask, render_template, request
 from flask_socketio import SocketIO
 
-from .nfc_manager import SpoolReader, ACR122U
+from .nfc_manager import SpoolReader, READERS_NFC
 
 # App settings
 app = Flask(__name__)
@@ -278,7 +278,7 @@ def set_preferred_reader(reader_filter: str) -> None:
     :param reader_filter: String that the reader needs to contain
     """
     if reader_filter:
-        ACR122U.preferred_reader = reader_filter
+        READERS_NFC.preferred_reader = reader_filter
 
 
 def start_web_app(port: int):
