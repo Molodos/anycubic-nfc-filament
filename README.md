@@ -53,11 +53,11 @@ The following hardware is needed (buy them via my affiliate links to support thi
 2) Clone this repository and go to the root directory (the one with the `requirements.txt`) with a shell (on most
    operating systems, you can open the folder and then right-click and select something like `open shell here`)
 3) Do the upcoming steps within the shell hust opened
-4) Install the requirements with the command `pip install -r requirements.txt`
-5) Start the tool with the shell command `python -m anycubic_nfc_app`
-6) Open the web interface in your browser (e.g. Google Chrome) by entering http://localhost:8080 into the top bar
-7) Make sure that a [ACR122U](https://amzn.to/4h24oZQ) (affiliate link) is connected to your computer
-8) Done. Have fun using the software :)
+4) On windows install the requirements with the command `pip install -r requirements.txt` on MacOS with `pip3 install -r requirements.txt`
+6) Start the tool with the shell command `python -m anycubic_nfc_app` on MacOS with `python3 -m anycubic_nfc_app`
+7) Open the web interface in your browser (e.g. Google Chrome) by entering http://localhost:8080 into the top bar
+8) Make sure that a [ACR122U](https://amzn.to/4h24oZQ) (affiliate link) is connected to your computer
+9) Done. Have fun using the software :)
 
 ## Supporting the Research
 
