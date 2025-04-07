@@ -4,4 +4,3 @@ Flask-SocketIO
 eventlet
 argparse
 pyinstaller
-smartcard
